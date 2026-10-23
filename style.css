@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: #ffffff;
+}
+
+header {
+  padding: 24px 15px;
+  text-align: center;
+  color: #00d9ff;
+  border-bottom: 1px solid #123b55;
+  background: #091827;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 15px #00bfff;
+}
+
+header p {
+  color: #9bc8df;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+#chat {
+  min-height: 300px;
+  max-height: 55vh;
+  overflow-y: auto;
+  padding: 16px;
+  border: 1px solid #164e70;
+  border-radius: 14px;
+  background: #0b192a;
+  box-shadow: 0 0 20px #00334d55;
+  overflow-wrap: anywhere;
+}
+
+#chat p {
+  padding: 10px;
+  border-radius: 8px;
+  background: #102338;
+  line-height: 1.5;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #00bfff;
+  outline: none;
+  background: #102338;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #00bfff;
+  color: #06111c;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:hover {
+  background: #55ddff;
+  }
